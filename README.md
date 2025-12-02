@@ -1,4 +1,4 @@
-# djano_treinamento
+# django_treinamento
 
 #### Para que serve?
 
