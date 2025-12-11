@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-umeu7ciha5u*o0(j487kw7d_ade3fvn#j-y3%8q&!+8p@8ld6k
 # SECURITY WARNING: don't run with debug turned on in production!
 # DEBUG True = Modo desenvolvimento
 # DEBUG False = Modo Produção
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 
@@ -44,6 +44,7 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -128,6 +129,5 @@ STATIC_ROOT = Path(BASE_DIR, 'staticfiles') # Usado durante a produção
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-
 
 LOGOUT_REDIRECT_URL = 'index'
