@@ -1,0 +1,10 @@
+.table-dark a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.table-dark a:hover {
+    text-decoration: none;
+    color: #6c6f73;
+    cursor: pointer;
+}

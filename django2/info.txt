@@ -1,0 +1,10 @@
+Se tiver com o sistema operacional Ubuntu:
+
+sudo apt.get install libmysqlclient-dev python3-dev
+
+Se tiver com o sistema operacional MAC:
+
+brew install mysql-connector-c
+
+Se tiver com o sistema operacional Windoww e tem o servidor MYSQL instalado,
+as bibliotecas já devem estar instaladas.
